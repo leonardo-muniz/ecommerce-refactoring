@@ -18,18 +18,18 @@ Projeto focado na refatoração de uma base de código procedural e acoplada par
 
 O sistema foi refatorado para seguir os princípios de modularização e separação de responsabilidades exigidos:
 * **com.leonardomuniz (Raiz):** Contém o ponto de entrada do sistema (App.java)
-* **model:** Agrupa as classes de domínio e objetos de valor encapsulados (Order, Client, Item)
-* **service:** Gerencia a lógica de negócio auxiliar e a comunicação com serviços externos (DiscountPolicy, EmailService)
-* **view:** Camada responsável exclusivamente pela formatação e saída de dados no console (InvoicePrinter).
+* **com.leonardomuniz.model:** Agrupa as classes de domínio e objetos de valor encapsulados (Order, Client, Item)
+* **com.leonardomuniz.service:** Gerencia a lógica de negócio auxiliar e a comunicação com serviços externos (DiscountPolicy, EmailService)
+* **com.leonardomuniz.view:** Camada responsável exclusivamente pela formatação e saída de dados no console (InvoicePrinter).
 
 ## ⚙️ Como Executar
 
 ### Via Docker
 A aplicação está conteinerizada para facilitar a execução em qualquer ambiente.
 
-1. Clone o repositório:
+1. Clone o repositório e entre na pasta:
 ```bash
-git clone https://github.com/leonardocmuniz/ecommerce-refatoracao.git
+git clone https://github.com/leonardo-muniz/ecommerce-refatoracao.git
 cd ecommerce-refatoracao
 ```
 
