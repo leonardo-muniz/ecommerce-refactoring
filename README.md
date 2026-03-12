@@ -29,7 +29,7 @@ A aplicação está conteinerizada para facilitar a execução em qualquer ambie
 
 1. Clone o repositório:
 ```bash
-git clone [https://github.com/leonardocmuniz/ecommerce-refatoracao.git](https://github.com/leonardocmuniz/ecommerce-refatoracao.git)
+git clone https://github.com/leonardocmuniz/ecommerce-refatoracao.git
 cd ecommerce-refatoracao
 ```
 
